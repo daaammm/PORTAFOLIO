@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="Imagenes/3430590-avatar-female-girl-heart-love-valentine-woman_107547.ico">
+    <title>Portafolio|Damiana</title>
+</head>
+<body>
+    <!--navegador de secciones-->
+    <header id="seccion de menu">
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#Proyecto">Proyecto</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Cover -->
+    <section class="section proyecto-section" >
+        <div class="column main-content">
+            <div class="proyecto-info">
+                <h1>¡Hola!</h1>
+                <p>me llamo</p>
+                <h1>Damiana Medina</h1>
+                <p class="proyecto-description">
+                    Desarrolladora web en proceso con ADAITW. 
+                </p>
+            </div>
+            <img src="./Imagenes/undraw_Mobile_development_re_wwsn.png" alt="" class="proyecto-img">
+        </div>
+    </section>
+
+    <!--Habilidades-->
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="Habilidades-row">
+                <div class="Habilidades-row-detail">
+                    <img src="./Imagenes/html_icon.png" alt="" />
+                </div>
+                <div class="Habilidades-row-detail">
+                    <img src="./Imagenes/javascript_icon.png" alt="" />
+                </div>
+                <div class="Habilidades-row-detail">
+                    <img src="./Imagenes/css_icon.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Primer proyecto-->
+    <section class="section proyecto-section" id="proyecto">
+        <div class="column main-content">
+            <div class="proyecto-info">
+                <h4> Mi primer proyecto</h4>
+                <p class="proyecto-description">
+                    <strong>Mi portafolio personal,</strong> es donde <br>
+                    por primera vez proyecte lo que he <br>
+                    aprendido hasta ahora de<br>
+                    <strong>HTML y CSS.</strong>
+                </p>
+            </div>
+            <img src="./Imagenes/undraw_Static_website_re_x70h.png" alt="" class="proyecto-img">
+        </div>
+    </section>
+
+    <!--Cita-->
+    <section class="section quote-section">
+        <div class="column content">
+          <i class="quote-icon"></i>
+          <blockquote>
+            <p class="quote">
+              "El diseño no es solo lo que se ve o se siente. El diseño es lo que funciona".
+            </p>
+          </blockquote>
+          <cite>Steve Jobs</cite>
+        </div>
+    </section>
+
+    <!--Contacto-->
+      <!--Mi nota -->>
+    <section class="section Contacto-section" id="Contacto">
+        <div class="column">
+            <div class="Contacto">
+                <section class="Contacto-column">
+                    <h3 class="section-title">Contacto</h3>
+                    <p class="section-description">
+                        Como parte importante proyecto formación,<br>
+                        estoy abierta a comentarios, aportaciones,<br>
+                        colaboraciones, y saludos, claro. ¡Escribeme!
+                    </p>
+                         <!-- enlace a redes sociales -->
+                </section>
+                 <!--FORMULARIO-->
+                <section class="Contacto-column">
+                    <form action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj" method="POST" class="Contacto-form">
+                         <div class="input-name-wrapper">
+                        <!--NOMBRE-->
+                        <div class="form-control">
+                            <label for="firstname">Nombre *</label>
+                            <input type="text" name="Nombre" id="firtsname" class="input-firtsname input-control" aria-label="Nombre" required="">
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        </div>
+                        <br>
+                        <!--email-->
+                        <div class="form-control">
+                            <label for="email">Email *</label>
+                            <input type="email" name="Email" id="email" class="input-control" aria-label="Email" required="">
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <br>
+                        <!--mensaje-->
+                        <div class="form-control">
+                            <label for="message">Mensaje *</label>
+                            <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escriba aquí su mensaje" aria-label="Mensaje" required=""></textarea>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <!--boton de enviar-->
+                        <button type="submit" class="Contacto-send-btn button">
+                             Enviar
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+		<p class="footer-despedida">
+		 Con ❤ Damiana
+		</p>
+	</footer>
+</body>
+</html>
